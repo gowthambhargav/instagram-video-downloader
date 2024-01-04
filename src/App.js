@@ -58,6 +58,7 @@ function App() {
           <a
             href="https://github.com/gowthambhargav"
             target="_blank"
+            rel="noreferrer"
             className="text-black font-bold text-center p-2"
           >
             Github
@@ -65,6 +66,7 @@ function App() {
           <a
             href="https://linkedin.com/in/gowtham-bhargav-6a64a5218"
             target="_blank"
+            rel="noreferrer"
             className="text-black font-bold text-center p-2"
           >
             Linkedin
@@ -123,16 +125,6 @@ function App() {
                     value="Download"
                     name="Download"
                     id="Download"
-                    title="Download"
-                    aria-label="Download"
-                    role="button"
-                    tabIndex="0"
-                    data-testid="Download"
-                    data-test-id="Download"
-                    data-test="Download"
-                    data-test-class="Download"
-                    data-test-class-name="Download"
-                    data-test-class-names="Download"
                     className=" rounded-md
                 bg-blue-500 p-2 text-xl font-bold ml-2
                 hover:bg-blue-700
