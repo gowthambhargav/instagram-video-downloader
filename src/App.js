@@ -3,12 +3,10 @@ import { useState } from "react";
 function App() {
   const [inputUrl, setinputUrl] = useState();
   const [result, setResult] = useState();
-  const [error, setError] = useState();
   const [loading, setLoading] = useState(false);
 
   const handelClick = async () => {
     setLoading(true);
-    setError(null);
     setResult(null);
     if (!inputUrl) {
       alert("Please enter a valid URL");
